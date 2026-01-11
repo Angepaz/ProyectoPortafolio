@@ -1,0 +1,116 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+
+header {
+  background-color: #1b5b71;
+  color: #ffffff;
+  padding: 10px 40px;
+  height: 100px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin-top: -20px;
+
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.menu a:hover {
+  color: #e6a2d3;
+  border-bottom: 2px solid #ffd6c0;
+}
+
+.menu .contacto {
+  background-color: #fff;
+  color: #004c66;
+  padding: 6px 12px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+.menu .contacto:hover {
+  background-color: #e6a2d3;
+  color: #004c66;
+  border-bottom: none;
+}
+
+p{
+    text-align: justify;
+    line-height: 1.6;
+    margin: 0 20px 20px 20px;
+    color: #004c66;
+    font-size: 18px;}
+
+h2{
+    color: #1b5b71;
+    text-align: left;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+h3{
+    color: #1b5b71;
+    text-align: left;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 28px;
+}
+
+.habilidades{
+    list-style-type: square;
+    margin: 0 40px 20px 40px;
+    padding: 0;
+    color: #004c66;
+    font-size: 18px;
+}
+
+img{
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-top: 10PX;
+    margin-left: 15px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+footer p{
+    text-align: center;
+    padding: 40px;
+    background-color: #1b5b71;
+    color: white;
+    margin: 0;
+    font-size: 16px;
+}
